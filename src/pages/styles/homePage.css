@@ -1,0 +1,46 @@
+.home {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 88.75vh; 
+  }
+  
+  .home_container {
+    text-align: center; 
+  }
+  
+  .home_img {
+    width: 500px; 
+    height: auto; 
+    margin-bottom: 20px; 
+  }
+  
+  .home h1 {
+    font-size: 2rem; 
+    margin-bottom: 10px; 
+    font-family: 'Pokemon Solid', sans-serif;
+    font-weight: 400;
+    color: yellow;
+    -webkit-text-stroke: 1px blue;
+  }
+  
+  .home p {
+    font-size: 1.2rem; 
+    margin-bottom: 20px; 
+  }
+  
+  .home form {
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .home input, .home button {
+    padding: 10px; 
+    font-size: 1rem;
+  }
+  
+  .home button {
+    margin-left: 10px; 
+    
+  }
+  
