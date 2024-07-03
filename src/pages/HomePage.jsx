@@ -21,7 +21,7 @@ const HomePage = () => {
   return (
     <div className='home'>
       <div className='home_container'>
-        <img className='home_img' src="../../public/PokedeX.png" alt="" />
+        <img className='home_img' src="/PokedeX.png" alt="" />
         <h1>Welcome Trainer!</h1>
         <p>To start, please give me your trainer name</p>
         <form onSubmit={handleSubmit}>
